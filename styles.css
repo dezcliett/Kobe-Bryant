@@ -1,0 +1,127 @@
+/* Global Styles */
+body {
+    padding: 0px;
+    margin: 0px;
+}
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+
+
+/* NAVBAR */
+.navbar {
+    height: 200px;
+    width: 100%;
+    background-color:purple;
+    position: fixed;
+    opacity: .4;
+    clear: right;
+}
+.navbar-logo {
+    height: 200px;
+    
+}
+.navbar-nav {
+    float: right;
+}
+.nav-item {
+    color:black ;
+    float: right;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    list-style: none;
+    padding: 10px;
+    border: 5px solid yellow;
+    border-radius: 50%;
+}
+
+.nav-item:hover {
+    border: solid yellow;
+}
+
+.nav-item a:hover {
+    color:yellow;
+}
+.image {
+    width: 100%;
+}
+.hero-img {
+    height:1200px ;
+    width: 100%;
+    background-image: linear-gradient(rgba(112, 107, 111, 0.7),rgb(107,110,112,.7)),url(./img/BEANBRYANT.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0px;
+    margin-top: 0px;
+}
+.hero-text {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+.hero-header {
+    color: yellow;
+    position: relative;
+    left: 150px;
+    right: 150px;
+    font-size: 100px;
+}
+.hero-caption {
+    color: yellow;
+}
+.footer {
+    background-color:gray;
+    height: 100px;
+    width: 100%;
+    bottom: 0px;
+}
+.footer-item {
+    float: left;
+    margin-top: 40px;
+    margin-left: 300px;
+    color: violet;
+}
+.home-content {
+    height: 600px;
+    width: 100%;
+    background-color: lightgray;
+}
+.content-img {
+    height: 400px;
+    width: 270px;
+    background-image:url("./img/bros.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    display: inline-block;
+    float: left;
+    top: 300px;
+    left: 150px;
+}
+.content.para {
+    height: 400px;
+    width: 270px;
+    background-color: purple;
+    position: relative;
+    top: 30px;
+    left: 45px;
+    display: inline-block;
+}
+.contact-column {
+    margin-top: 300px;   
+    width: 40%;
+    float: left;
+    
+}
+.contact-form{
+    margin-left: 250px;
+}
+.footer{
+    clear:left;
+}

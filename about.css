@@ -1,0 +1,52 @@
+section {
+    height: 400px;
+    width: 200px;
+}
+.navbar {
+    height: 200px;
+    width: 100%;
+    background-color:purple;
+    position: absolute;
+    opacity: .8;
+    clear: right;
+}
+.navbar-logo {
+    height: 200px;
+    
+}
+.navbar-nav {
+    float: right;
+}
+.nav-item {
+    color:black ;
+    float: right;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    list-style: none;
+    padding: 10px;
+    border: 5px solid yellow;
+    border-radius: 50%;
+}
+
+.nav-item:hover {
+    border: solid yellow;
+}
+
+.nav-item a:hover {
+    color:yellow;
+}
+
+.footer {
+    background-color:gray;
+    height: 100px;
+    width: 100%;
+    position: ;
+}
+.footer-item {
+    float: left;
+    margin-top: 40px;
+    margin-left: 300px;
+    color: violet;
+}
+    

@@ -10,16 +10,13 @@ a {
 a:visited {
     color: white;
 }
-
-
-
 /* NAVBAR */
 .navbar {
     height: 200px;
     width: 100%;
     background-color:purple;
-    position: fixed;
-    opacity: .4;
+    position: absolute;
+    opacity: .8;
     clear: right;
 }
 .navbar-logo {
@@ -51,6 +48,8 @@ a:visited {
 .image {
     width: 100%;
 }
+/* Navbar Ends */
+/* Hero Section */
 .hero-img {
     height:1200px ;
     width: 100%;
@@ -75,6 +74,7 @@ a:visited {
 .hero-caption {
     color: yellow;
 }
+/* Hero Section End */
 .footer {
     background-color:gray;
     height: 100px;
@@ -94,7 +94,7 @@ a:visited {
 }
 .content-img {
     height: 400px;
-    width: 270px;
+    width: 400px;
     background-image:url("./img/bros.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -102,26 +102,33 @@ a:visited {
     display: inline-block;
     float: left;
     top: 300px;
-    left: 150px;
+    left: 65px;
+    top: 15px;
 }
-.content.para {
+.content_img {
     height: 400px;
-    width: 270px;
-    background-color: purple;
+    width: 400px;
+    position: relative;
+    right: -450px;
+}
+.content-box {
+    height: 300px;
+    width: 250px;
+    background-image: url("./img/RIPKOBE.jpg");
+}
+.content-para {
+    height: 400px;
+    width: 400px;
+    color:purple;
+    background-color:;
     position: relative;
     top: 30px;
-    left: 45px;
     display: inline-block;
+    float: right;
 }
-.contact-column {
-    margin-top: 300px;   
-    width: 40%;
+.family-image {
+    width: 400px;
+    height: 400px;
     float: left;
-    
-}
-.contact-form{
-    margin-left: 250px;
-}
-.footer{
-    clear:left;
+    right: 300em;
 }

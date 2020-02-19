@@ -1,0 +1,59 @@
+/* Global */
+.navbar {
+    height: 200px;
+    width: 100%;
+    background-color: purple;
+    position: absolute;
+    opacity: .8;
+    clear: right;
+}
+.navbar-logo {
+    height: 200px;
+    margin-left: -10px;
+}
+.navbar-nav {
+    float: right;
+    background-color:yellow;
+}
+.nav-item {
+    color: black;
+    float: right;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    list-style: none;
+    padding: 10px;
+    border: 5px solid yellow;
+    border-radius: 50%;
+}
+
+.nav-item:hover {
+    border: solid purple;    
+}
+
+.nav-item a:hover {
+    color:purple;
+}
+/* Navbar Ends */
+.contact-column {
+    margin-top: 300px;   
+    width: 40%;
+    float: right;
+}
+.contact-form{
+    margin-left: 250px;
+}
+/* Footer */
+.footer {
+    height: 50px;
+    width: 100%;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.footer-item {
+    float: left;
+    margin-top: 40px;
+    margin-left: 300px;
+    color:purple;
+}
+/* Footer over */

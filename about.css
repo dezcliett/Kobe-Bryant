@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+
+body {
+    background-color: turquoise;
+}
 section {
     height: 400px;
     width: 200px;
@@ -36,12 +41,21 @@ section {
 .nav-item a:hover {
     color:yellow;
 }
-
+.image {
+    width: 100%;
+}
+.para-content {
+    float: right;
+    color: purple;
+    font: 'Raleway', serif;
+    font-size: 25px;
+}
+/* Footer */
 .footer {
     background-color:gray;
-    height: 100px;
+    align-items: baseline;
     width: 100%;
-    position: ;
+    position: absolute;
 }
 .footer-item {
     float: left;
@@ -49,4 +63,9 @@ section {
     margin-left: 300px;
     color: violet;
 }
-    
+/* Contact info */
+.contact_page_image {
+    height: 40x;
+    float: right;
+    bottom: 15%;
+}
